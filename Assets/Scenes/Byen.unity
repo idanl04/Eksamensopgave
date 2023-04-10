@@ -21548,7 +21548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960820078
 GameObject:
@@ -25992,7 +25992,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470620110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5467, y: -0.9639, z: 0}
+  m_LocalPosition: {x: -10.78, y: -1.59, z: 0}
   m_LocalScale: {x: 7.0056353, y: 5.9393415, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26051,7 +26051,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1557798055
+--- !u!1 &1678166192
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26059,81 +26059,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1557798057}
-  - component: {fileID: 1557798056}
+  - component: {fileID: 1678166193}
   m_Layer: 0
-  m_Name: Isometric Diamond
+  m_Name: Inventory Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &1557798056
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557798055}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
-  m_Color: {r: 0.90107536, g: 0.9150943, b: 0.31654197, a: 0.36078432}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.5}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1557798057
+--- !u!4 &1678166193
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557798055}
+  m_GameObject: {fileID: 1678166192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.45, y: -1.2057, z: 0}
-  m_LocalScale: {x: 2.2579567, y: 5.5919294, z: 1}
+  m_LocalPosition: {x: -5.6251545, y: 0.06371082, z: -0.17034107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1998560137
 GameObject:
@@ -26838,7 +26785,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 7
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -28641,12 +28588,12 @@ Tilemap:
     m_Data: {fileID: -997134767, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -685587725, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 734187209, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
-  - m_RefCount: 17
-    m_Data: {fileID: 2008477641, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 17
+    m_Data: {fileID: 2008477641, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 734187209, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1866956759, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
   - m_RefCount: 2
@@ -28862,7 +28809,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 70
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.0035599805, g: 0.009380314, b: 0.05660379, a: 0.27058825}
   m_FlipX: 0
@@ -28882,8 +28829,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142237732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.5689, y: 7.0422, z: 0}
-  m_LocalScale: {x: 1.5733982, y: 34.2077, z: 1}
+  m_LocalPosition: {x: 14.0338, y: -3.9656, z: 0}
+  m_LocalScale: {x: 90.777306, y: 56.22375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
