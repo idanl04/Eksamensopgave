@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018cd61ae92b947469caade70beb5cfb, type: 3}
+  m_Name: Durum
+  m_EditorClassIdentifier: 
+  ID: 0
+  displayName: Durum
+  description: 
+  icon: {fileID: 1543719744, guid: 21da7ad91f55c4f46a59f5d73c001609, type: 3}
+  maxStackSize: 1
