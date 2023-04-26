@@ -12,7 +12,7 @@ public class InventoryHolder : MonoBehaviour
         inventory = new Inventory();
 
 
-        inventoryGUI.SetInventory(inventory);
+   //     inventoryGUI.SetInventory(inventory);
     }
 
     public Inventory GetInventory()

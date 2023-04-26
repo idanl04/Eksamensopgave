@@ -15,5 +15,5 @@ MonoBehaviour:
   ID: 0
   displayName: "H\xF8jh\xE6le"
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 826a236c6db65d943b7acdb6561ec0cc, type: 3}
   maxStackSize: 1

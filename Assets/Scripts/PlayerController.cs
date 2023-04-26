@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    PlayerControls _playerControls;
    
 
     Vector2 movementInput;
@@ -19,6 +21,9 @@ public class PlayerController : MonoBehaviour
 
     bool canMove = true;
 
+    void Awake() {
+        _playerControls = new PlayerControls();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        movementInput = _playerControls.PlayerMovement.movement.ReadValue<Vector2>();
         if (canMove)
         {
             // If movement input is not 0, try to move
@@ -92,5 +98,14 @@ public class PlayerController : MonoBehaviour
             // Can't move if there's no direction to move in
             return false;
         }
+    }
+
+    public void OnDisable() {
+        _playerControls.PlayerMovement.Disable();
+    }
+
+    public void OnEnable()
+    {
+        _playerControls.PlayerMovement.Enable();
     }
 }

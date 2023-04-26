@@ -15,5 +15,5 @@ MonoBehaviour:
   ID: 0
   displayName: Makeup
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: fdc0a98f453aa3c44b91db409126feed, type: 3}
   maxStackSize: 1

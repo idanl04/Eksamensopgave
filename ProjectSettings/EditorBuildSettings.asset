@@ -14,4 +14,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Natklub.unity
     guid: b099ac31cec4d5045b7f6116f9aad7f0
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 3e0e721771549f847975abbad57d2ad5, type: 2}
