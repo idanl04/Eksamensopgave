@@ -1,55 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class DialogueTrigger : MonoBehaviour
 {
     [Header("Visual Cue")]
     [SerializeField] private GameObject visualCue;
+    private bool playerInRange = false;
 
-    [Header("Emote Animator")]
-    [SerializeField] private Animator emoteAnimator;
-
-    [Header("Ink JSON")]
+    [Header("Ink JSCON")]
     [SerializeField] private TextAsset inkJSON;
 
-    private bool playerInRange;
 
-    private void Awake()
+    // Start is called before the first frame update
+    void Awake()
     {
         playerInRange = false;
-        visualCue.SetActive(false);
+        visualCue.SetActive(false); // Som udgangspunkt er visualCue ikke synligt
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player") // Kan kun trigges fra et Ojbekt med tag "Player"
+            playerInRange = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+            playerInRange = false;
+    }
+
+
+    // Update is called once per frame
     private void Update()
     {
+        
         if (playerInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             visualCue.SetActive(true);
+            Debug.Log("Set active true");
             if (InputManager.GetInstance().GetInteractPressed())
             {
-                DialogueManager.GetInstance().EnterDialogueMode(inkJSON, emoteAnimator);
+                Debug.Log(" interact pressed");
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+                Debug.Log(inkJSON.text);
             }
         }
         else
         {
             visualCue.SetActive(false);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.gameObject.tag == "Player")
-        {
-            playerInRange = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.gameObject.tag == "Player")
-        {
-            playerInRange = false;
         }
     }
 }

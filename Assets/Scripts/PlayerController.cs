@@ -33,7 +33,12 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {
+    {   
+        if(DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
+
         movementInput = _playerControls.PlayerMovement.movement.ReadValue<Vector2>();
         if (canMove)
         {
