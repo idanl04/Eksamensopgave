@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
 public class MovementSM : StateMachine
 {
     public float speed = 4f;
@@ -28,3 +28,4 @@ public class MovementSM : StateMachine
         return idleState;
     }
 }
+*/
