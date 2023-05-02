@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f98c8421b37ceb44a119242983dbd88
+guid: 84b0ee14af887e44e82996e89bfeee5f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 390
+  spritePixelsToUnits: 1600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ond dreng_0
+      name: sr20b9c0fada997_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 608
-        height: 1216
+        width: 288
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9295e19652086ff4bb86030e4a5d6356
-      internalID: -763615765
+      spriteID: 942a6c22b506a12439560a511e053353
+      internalID: 707142432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ond dreng_1
+      name: sr20b9c0fada997_1
       rect:
         serializedVersion: 2
-        x: 608
+        x: 288
         y: 0
-        width: 608
-        height: 1216
+        width: 288
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1bab98375d6a0c47a9889ba1baada08
-      internalID: -2049907553
+      spriteID: c9a941d1222b383458714ebd9bd5a792
+      internalID: -1038009746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ond dreng_2
+      name: sr20b9c0fada997_2
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 576
         y: 0
-        width: 608
-        height: 1216
+        width: 288
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7534ccd682637cf4b8c028bc4218811e
-      internalID: 422165464
+      spriteID: bb3734d32a61d3e46a3353d819c70550
+      internalID: -162989310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sr20b9c0fada997_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 288
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dba839473a1690408eef9e302894e9b
+      internalID: -872175456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sr20b9c0fada997_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 288
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4780030b37a4cf449d97835f06f458d
+      internalID: 2087426131
       vertices: []
       indices: 
       edges: []
@@ -177,9 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ond dreng_1: -2049907553
-      Ond dreng_0: -763615765
-      Ond dreng_2: 422165464
+      sr20b9c0fada997_1: -1038009746
+      sr20b9c0fada997_2: -162989310
+      sr20b9c0fada997_0: 707142432
+      sr20b9c0fada997_4: 2087426131
+      sr20b9c0fada997_3: -872175456
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

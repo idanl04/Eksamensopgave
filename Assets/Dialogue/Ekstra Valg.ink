@@ -2,13 +2,14 @@
 
 === main ===
 Which pokemon do you choose?
-    - [Charmander]
+    + [Charmander]
         -> chosen("Charmander")
-    - [Bulbasaur]
+    + [Bulbasaur]
         -> chosen("Bulbasaur")
-    - [Squirtle]
+    + [Squirtle]
         -> chosen("Squirtle")
         
 === chosen(pokemon) ===
 You chose {pokemon}!
 -> END
+
